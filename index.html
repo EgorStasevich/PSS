@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<script src="js/main.js"></script>
+	<link href="css/style.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+		<input type="text" id="input1" value="!!!">
+		<input type="text" id="input2" value="???">
+		<button onclick="buttonClick()">Нажми на меня</button>
+
+
+
+
+	<script>
+		function buttonClick() {
+			input1 = document.getElementById('input1');
+input2 = document.getElementById('input2');
+input1Value = input1.value;
+ input2Value = input2.value;
+			input1.value = input2Value;
+			input2.value = input1Value;
+		}
+
+
+	</script>
+</body>
+
+</html>
