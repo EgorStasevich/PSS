@@ -1,3 +1,0 @@
-function Button_Chek() {
-
-}
